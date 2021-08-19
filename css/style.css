@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../Lato/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../Roboto/Roboto-Medium.ttf);
+}
+
+/* admin panel start */
+.ad_panel {
+}
+.all_admin {
+}
+.ad_left {
+  margin-top: 100px;
+  margin-bottom: 120px;
+  border: 1px solid #8e8e8e;
+}
+.ad_item {
+  margin: 40px 30px;
+}
+.ad_pic {
+}
+.ad_pic img {
+}
+.ad_text {
+}
+.ad_text h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
+  text-transform: uppercase;
+}
+.ad_text span {
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 30px;
+  display: block;
+}
+.ad_text .ad_title {
+  font-family: Roboto-Regular;
+}
+.ad_text p {
+  font-family: Roboto-Regular;
+}
+.ad_text h4 {
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ad_right {
+  border: 1px solid #8e8e8e;
+  width: 100%;
+  height: 350px;
+  top: 100px;
+  position: relative;
+}
+.ccp1 span,
+.ccn1 span {
+  background-image: none;
+}
+/* .ccp1,
+.ccn1 {
+  top: 200px;
+} */
+.ccp1 {
+  position: absolute;
+  color: #8e8e8e;
+  transform: rotate(90deg);
+  width: 100%;
+  height: 10%;
+  top: 50px;
+}
+.ccp1:hover {
+  color: #333333;
+}
+.ccp1:focus {
+  color: #333333;
+}
+.ccn1 {
+  position: absolute;
+  color: #8e8e8e;
+  transform: rotate(90deg);
+  width: 100%;
+  height: 10%;
+  top: 270px;
+}
+.ccn1:hover {
+  color: #333333;
+}
+.ccn1:focus {
+  color: #333333;
+}
+
+/* admin panel end */
